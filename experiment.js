@@ -64,8 +64,6 @@ if(!is_compatible) {
   var database = firebase.database();
 
   // id variables
-  var prolificID = jsPsych.data.getURLVariable("prolificID");
-  if(prolificID == null) {prolificID = "999";}
   var jspsych_id = jsPsych.randomization.randomID(15)
 
   // Preload images
@@ -351,7 +349,6 @@ var next_position = function(){
         .ref("participant_id_FrMg/")
         .push()
         .set({jspsych_id: jspsych_id,
-               prolificID: prolificID,
                vaast_condition_approach: vaast_condition_approach,
                timestamp: firebase.database.ServerValue.TIMESTAMP})
   }
@@ -362,7 +359,6 @@ var next_position = function(){
       .ref("vaast_trial_FrMg/").
       push()
         .set({jspsych_id: jspsych_id,
-          prolificID: prolificID,
           vaast_condition_approach: vaast_condition_approach,
           timestamp: firebase.database.ServerValue.TIMESTAMP,
           vaast_trial_data: jsPsych.data.get().last(4).json()})
@@ -376,7 +372,6 @@ var next_position = function(){
      .ref("browser_event_FrMg/")
      .push()
      .set({jspsych_id: jspsych_id,
-      prolificID: prolificID,
       timestamp: firebase.database.ServerValue.TIMESTAMP,
       vaast_condition_approach: vaast_condition_approach,
       completion: completion,
@@ -756,8 +751,8 @@ if(is_compatible) {
       },
     on_finish: function() {
         saving_browser_events(completion = true);
-        window.location.href = "https://marinerougier.github.io/RC_FrMg/RC.html?jspsych_id=" + jspsych_id + "&prolificID=" + 
-        prolificID + "&vaast_condition_approach=" + vaast_condition_approach;
+        window.location.href = "https://marinerougier.github.io/RC_FrMg/RC.html?jspsych_id=" + jspsych_id 
+        + "&vaast_condition_approach=" + vaast_condition_approach;
     }
   });
 }
