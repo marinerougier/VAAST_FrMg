@@ -496,10 +496,10 @@ var vaast_instructions_3 = {
     "<p class='instructions'>Au début de chaque essai, vous verrez le symbole 'O'. " +
     "Ce symbole indique que vous devez appuyer sur la touche <b>DEPART</b> (la <b>touche D</b>) pour commencer l'essai. </p>" +
     "<p class='instructions'>Vous allez alors voir apparaître au centre de l'écran une croix de fixation (+), suivie d'un visage. </p>" +
-    "<p class='instructions'>Votre tâche sera de catégoriser ce visage en fonction de son origine ethnique en appuyant <b>trois fois</b>, aussi vite que possible, " +
+    "<p class='instructions'>Votre tâche sera de catégoriser ce visage en fonction de son origine ethnique en appuyant <b>TROIS fois</b>, aussi vite que possible, " +
     "sur la <b>touche E</b> ou sur la <b>touche C</b>. Après ces trois appuis, le visage disparaîtra et vous devrez "+
     "appuyer de nouveau sur la touche DEPART (la touche D). " +
-    "<p class='instructions'>Merci d'utiliser uniquement l'index de votre main dominante pour toutes ces actions. </p>" +
+    "<p class='instructions'>Merci d'utiliser uniquement <b>l'index de votre main dominante</b> pour toutes ces actions. </p>" +
     "<br>" +
     "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour" +
     " continuer.</p>",
