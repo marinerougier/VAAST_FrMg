@@ -718,9 +718,9 @@ timeline.push(save_id);
                   vaast_instructions_2_bis_vaast,
                   vaast_instructions_3, 
                   vaast_instructions_4,
-                  //vaast_training_block,
+                  vaast_training_block,
                   vaast_break,
-                  //vaast_training_block,
+                  vaast_training_block,
                   vaast_instructions_end);
 
 timeline.push(showing_cursor);
