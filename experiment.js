@@ -136,55 +136,55 @@ var showing_cursor = {
 // Preload faces
   var faces = [
       "stimuli/Fr_3.png",
-      "stimuli/Fr_8.png",
-      "stimuli/Fr_10.png",
       "stimuli/Fr_14.png",
-      "stimuli/Fr_25.png",
-      "stimuli/Fr_27.png",
-      "stimuli/Fr_32.png",
-      "stimuli/Fr_38.png",
+      "stimuli/Fr_18.png",
       "stimuli/Fr_43.png",
-      "stimuli/Fr_49.png",
-      "stimuli/Fr_52.png",
-      "stimuli/Fr_55.png",
+      "stimuli/Fr_44.png",
+      "stimuli/Fr_45.png",
+      "stimuli/Fr_54.png",
       "stimuli/Fr_76.png",
       "stimuli/Fr_82.png",
-      "stimuli/Fr_85.png",
+      "stimuli/Fr_83.png",
       "stimuli/Fr_86.png",
-      "stimuli/Fr_87.png",
+      "stimuli/Fr_88.png",
+      "stimuli/Fr_92.png",
       "stimuli/Fr_95.png",
+      "stimuli/Fr_100.png",
+      "stimuli/Fr_103.png",
       "stimuli/Fr_104.png",
+      "stimuli/Fr_105.png",
       "stimuli/Fr_106.png",
       "stimuli/Fr_108.png",
+      "stimuli/Fr_112.png",
       "stimuli/Fr_115.png",
-      "stimuli/Fr_132.png",
+      "stimuli/Fr_117.png",
+      "stimuli/Fr_140.png",
       "stimuli/Fr_142.png",
-      "stimuli/Fr_151.png",
       "stimuli/Mg_1.png",
       "stimuli/Mg_2.png",
       "stimuli/Mg_7.png",
       "stimuli/Mg_11.png",
       "stimuli/Mg_12.png",
       "stimuli/Mg_22.png",
-      "stimuli/Mg_23.png",
-      "stimuli/Mg_33.png",
       "stimuli/Mg_48.png",
       "stimuli/Mg_51.png",
-      "stimuli/Mg_60.png",
+      "stimuli/Mg_58.png",
       "stimuli/Mg_63.png",
       "stimuli/Mg_64.png",
       "stimuli/Mg_67.png",
+      "stimuli/Mg_72.png",
       "stimuli/Mg_75.png",
       "stimuli/Mg_77.png",
       "stimuli/Mg_79.png",
       "stimuli/Mg_90.png",
+      "stimuli/Mg_93.png",
       "stimuli/Mg_107.png",
+      "stimuli/Mg_113.png",
       "stimuli/Mg_120.png",
-      "stimuli/Mg_130.png",
       "stimuli/Mg_137.png",
-      "stimuli/Mg_139.png",
       "stimuli/Mg_144.png",
-      "stimuli/Mg_145.png"
+      "stimuli/Mg_145.png",
+      "stimuli/Mg_146.png"
   ];
 
  preloadimages.push(faces);
@@ -202,15 +202,15 @@ switch(vaast_condition_approach) {
   case "approach_mg":
     movement_mg    = "approach";
     movement_fr    = "avoidance";
-    group_to_approach = "maghrébin";
-    group_to_avoid    = "caucasien";
+    group_to_approach = "MAGHREBINE";
+    group_to_avoid    = "BELGE";
     break;
 
   case "approach_fr":
     movement_mg    = "avoidance";
     movement_fr    = "approach";
-    group_to_approach = "caucasien";
-    group_to_avoid   = "maghrébin";
+    group_to_approach = "BELGE";
+    group_to_avoid   = "MAGHREBINE";
     break;
 }
 
@@ -224,50 +224,50 @@ var vaast_stim_training = [
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_11.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_12.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_22.png'},
-  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_23.png'},
-  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_33.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_48.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_51.png'},
-  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_60.png'},
+  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_58.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_63.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_64.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_67.png'},
+  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_72.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_75.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_77.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_79.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_90.png'},
+  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_93.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_107.png'},
+  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_113.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_120.png'},
-  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_130.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_137.png'},
-  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_139.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_144.png'},
   {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_145.png'},
+  {movement: movement_mg, group: "mg", stimulus: 'stimuli/Mg_146.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_3.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_8.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_10.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_14.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_25.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_27.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_32.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_38.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_18.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_43.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_49.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_52.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_55.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_44.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_45.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_54.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_76.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_82.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_85.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_83.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_86.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_87.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_88.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_92.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_95.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_100.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_103.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_104.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_105.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_106.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_108.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_112.png'},
   {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_115.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_132.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_142.png'},
-  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_151.png'}
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_117.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_140.png'},
+  {movement: movement_fr,  group: "fr",  stimulus: 'stimuli/Fr_142.png'}
 ]
 
 // vaast background images --------------------------------------------------------------,
@@ -424,10 +424,10 @@ var fullscreen_trial = {
 var Gene_Instr = {
   type: "html-keyboard-response",
   stimulus:
-    "<h1 class ='custom-title'>Etude sur la catégorisation de visages</h1>" +
+    "<h1 class ='custom-title'>Etude sur la catégorisation</h1>" +
     "<br>" +
     "<p class='instructions'> Dans cette étude, nous nous intéressons à la manière " +
-    "dont nous catégorisons autrui à partir de son visage. </p>" +
+    "dont nous catégorisons autrui. </p>" +
    "<p class='instructions'>Vous devrez effectuer trois tâches de catégorisation : " +
     "<br>" +
     "- La tâche du Jeu Vidéo (environ 15-20 min)" + 
@@ -447,8 +447,7 @@ var vaast_instructions_1 = {
   stimulus:
     "<h1 class ='custom-title'>Tâche 1 : Tâche du Jeu Vidéo</h1>" +
     "<p class='instructions'>Dans cette tâche, un peu comme dans un jeu vidéo, vous " +
-    "serez dans un environnement dans lequel vous pourrez avancer ou reculer." +
-   "<p class='instructions'> L'environnement dans lequel vous pourrez vous déplacer est présenté ci-dessous.</p>" +
+    "vous trouverez dans l'environnement présenté ci-dessous.</p>" +
     "<br>" +
     "<img src = 'media/vaast-background.png'>" +
     "<br>" +
@@ -463,7 +462,7 @@ var vaast_instructions_2 = {
   stimulus:
     "<h1 class ='custom-title'>Tâche 1 : Tâche du Jeu Vidéo</h1>" +
     "<p class='instructions'>Une série de visages va apparaître dans l'environnement. " +
-    "Votre tâche sera de catégoriser ces visages (en avançant ou en reculant) aussi vite que possible. <br> <br>" +
+    "Votre tâche sera de catégoriser ces visages aussi vite que possible. <br> <br>" +
     "Plus précisément, vous devrez <b>catégoriser ces visages sur la base de leur origine ethnique (typiquement belge vs. typiquement maghrébine).</b> " +
     "Des instructions plus spécifiques vont suivre.</p>" +
     "<br>" +
@@ -478,7 +477,7 @@ var vaast_instructions_2_bis_vaast = {
   type: "html-keyboard-response",
   stimulus:
     "<h1 class ='custom-title'>Tâche 1 : Tâche du Jeu Vidéo</h1>" +
-    "<p class='instructions'>Pour avancer ou reculer, vous devrez utiliser les touches suivantes de votre clavier :" +
+    "<p class='instructions'>Pour catégoriser les visages, vous devrez utiliser les touches suivantes de votre clavier :" +
     "<br>" +
     "<br>" +
     "<img src = 'media/touches_Fr.png'>" +
@@ -497,8 +496,8 @@ var vaast_instructions_3 = {
     "<p class='instructions'>Au début de chaque essai, vous verrez le symbole 'O'. " +
     "Ce symbole indique que vous devez appuyer sur la touche <b>DEPART</b> (la <b>touche D</b>) pour commencer l'essai. </p>" +
     "<p class='instructions'>Vous allez alors voir apparaître au centre de l'écran une croix de fixation (+), suivie d'un visage. </p>" +
-    "<p class='instructions'>En fonction de l'origine ethnique de ce visage, votre tâche sera d'avancer ou de reculer en appuyant <b>trois fois</b>, aussi vite que possible, " +
-    "sur la touche <b>AVANCER</b> (la <b>touche E</b>) ou sur la touche <b>RECULER</b> (la <b>touche C</b>). Après ces trois appuis, le visage disparaîtra et vous devrez "+
+    "<p class='instructions'>Votre tâche sera de catégoriser ce visage en fonction de son origine ethnique en appuyant <b>trois fois</b>, aussi vite que possible, " +
+    "sur la <b>touche E</b> ou sur la <b>touche C</b>. Après ces trois appuis, le visage disparaîtra et vous devrez "+
     "appuyer de nouveau sur la touche DEPART (la touche D). " +
     "<p class='instructions'>Merci d'utiliser uniquement l'index de votre main dominante pour toutes ces actions. </p>" +
     "<br>" +
@@ -514,14 +513,8 @@ var vaast_instructions_4 = {
     "<p class='instructions'>Plus spécifiquement, vous devez : " +
     "<ul class='instructions'>" +
     "<li>" +
-    "<strong>ALLER VERS les visages appartenant au groupe des " + group_to_approach + "</strong></li>" +
-    "<strong>en appuyant sur la touche AVANCER (touche E) </strong>" +
-    "</li>" +
-    "<p class='instructions'> </p>" +
-    "<li>" + 
-    "<strong>VOUS ELOIGNER des visages appartenant au groupe des " + group_to_avoid + "</strong></li>" +
-    "<strong>en appuyant sur la touche RECULER (touche C)</strong>" +
-    "</li>" + 
+    "<strong>Appuyez sur la TOUCHE E pour les visages d'origine " + group_to_approach + "</strong></li>" +
+    "<li><strong>Appuyez sur la TOUCHE C pour les visages d'origine " + group_to_avoid + "</strong></li>" +
     "</ul>" +
     "<p class='instructions'>Merci de lire attentivement et de mémoriser ces instructions. </p>" +
     "<p class='instructions'><strong>Aussi, notez qu'il est EXTREMEMENT IMPORTANT d'essayer de répondre le plus rapidement et le plus exactement possible. </strong>" +
@@ -530,6 +523,18 @@ var vaast_instructions_4 = {
     "<p class = 'continue-instructions'>Appuyez sur <strong>entrée</strong> pour" +
     " continuer.</p>",
   choices: [13]
+};
+
+var vaast_break = {
+  type: "html-keyboard-response",
+  stimulus:
+    "Vous venez d'effectuer la moitié de la tâche du Jeu Vidéo (Tâche 1) ! N'hésitez pas à prendre 2-3 min de pause avant de continuer la tâche. " +
+    "Les instructions restent identiques. " +
+    "<br>" +
+    "<br>" +
+    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour" +
+    " continuer.</p>",
+  choices: [32]
 };
 
 var vaast_instructions_end = {
@@ -713,6 +718,8 @@ timeline.push(save_id);
                   vaast_instructions_2_bis_vaast,
                   vaast_instructions_3, 
                   vaast_instructions_4,
+                  vaast_training_block,
+                  vaast_break,
                   vaast_training_block,
                   vaast_instructions_end);
 
