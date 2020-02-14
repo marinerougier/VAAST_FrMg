@@ -346,7 +346,7 @@ var next_position = function(){
 // init ---------------------------------------------------------------------------------
   var saving_id = function(){
      database
-        .ref("participant_id_FrMg/")
+        .ref("participant_id_VAAST_FrMg/")
         .push()
         .set({jspsych_id: jspsych_id,
                vaast_condition_approach: vaast_condition_approach,
@@ -369,7 +369,7 @@ var next_position = function(){
 
   var saving_browser_events = function(completion) {
     database
-     .ref("browser_event_FrMg/")
+     .ref("browser_event_VAAST_FrMg/")
      .push()
      .set({jspsych_id: jspsych_id,
       timestamp: firebase.database.ServerValue.TIMESTAMP,
