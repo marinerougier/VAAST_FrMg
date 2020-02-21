@@ -537,6 +537,18 @@ var vaast_break = {
   choices: [32]
 };
 
+var vaast_interblock = {
+  type: "html-keyboard-response",
+  stimulus:
+    "Vous pouvez prendre une petite pause si vous le souhaitez. Quand vous êtes prêt.e, continuez la tâche. " +
+    "Les instructions restent identiques. " +
+    "<br>" +
+    "<br>" +
+    "<p class = 'continue-instructions'>Appuyez sur <strong>espace</strong> pour" +
+    " continuer.</p>",
+  choices: [32]
+};
+
 var vaast_instructions_end = {
   type: "html-keyboard-response",
   stimulus:
@@ -719,8 +731,20 @@ timeline.push(save_id);
                   vaast_instructions_3, 
                   vaast_instructions_4,
                   vaast_training_block,
-                  //vaast_break,
-                  //vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
                   vaast_instructions_end);
 
 timeline.push(showing_cursor);
