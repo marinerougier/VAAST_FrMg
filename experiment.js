@@ -430,9 +430,9 @@ var Gene_Instr = {
     "dont nous catégorisons autrui. </p>" +
    "<p class='instructions'>Vous devrez effectuer trois tâches de catégorisation : " +
     "<br>" +
-    "- La tâche du Jeu Vidéo (environ 15-20 min)" + 
+    "- La tâche du Jeu Vidéo (environ 30 min)" + 
     "<br>" +
-    "- La tâche de sélection de visages (environ 5 min)" +
+    "- La tâche de sélection de visages (environ 10 min)" +
     "<br>" +
     "- La tâche de catégorisation (environ 10 min)</p>" +
     "<br>" +
