@@ -732,7 +732,7 @@ timeline.push(save_id);
                   vaast_instructions_4,
                   vaast_training_block,
                   vaast_interblock,
-                  vaast_training_block,
+                  //vaast_training_block,
                   //vaast_interblock,
                   //vaast_training_block,
                   //vaast_interblock,
