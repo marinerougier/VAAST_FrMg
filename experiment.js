@@ -540,7 +540,7 @@ var vaast_break = {
 var vaast_interblock = {
   type: "html-keyboard-response",
   stimulus:
-    "Vous pouvez prendre une petite pause si vous le souhaitez. Quand vous êtes prêt.e, continuez la tâche. " +
+    "N'hésitez pas à prendre une petite pause si vous le souhaitez. Quand vous êtes prêt.e, vous pouvez continuez la tâche. " +
     "Les instructions restent identiques. " +
     "<br>" +
     "<br>" +
@@ -732,19 +732,19 @@ timeline.push(save_id);
                   vaast_instructions_4,
                   vaast_training_block,
                   vaast_interblock,
-                  //vaast_training_block,
-                  //vaast_interblock,
-                  //vaast_training_block,
-                  //vaast_interblock,
-                  //vaast_training_block,
-                  //vaast_interblock,
-                  //vaast_training_block,
-                  //vaast_interblock,
-                  //vaast_training_block,
-                  //vaast_interblock,
-                  //vaast_training_block,
-                  //vaast_interblock,
-                  //vaast_training_block,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
+                  vaast_interblock,
+                  vaast_training_block,
                   vaast_instructions_end);
 
 timeline.push(showing_cursor);
